@@ -3,15 +3,19 @@ Simple CSS
 
 A simple set of rules for CSS development.
 
-# Beliefs
+## Beliefs
+
 Simple CSS belives that CSS guidelines should:
+
 1. Be easy to teach.
 2. Have few rules.
 3. Make use of the latest technologies.
 4. Communicate clearly.
 
-# Rules Set
-## HTML should be written like this
+## Rules Set
+
+### HTML should be written like this
+
 ``` HTML
 <!--==============================================
  Send Feedback Form (sff)
@@ -25,7 +29,8 @@ Simple CSS belives that CSS guidelines should:
 </div>
 ```
 
-## Styles should be be written like this
+### Styles should be be written like this
+
 ``` SCSS
 /*================================================
  Send Feedback Form (sff)
@@ -48,7 +53,8 @@ Simple CSS belives that CSS guidelines should:
 }
 ```
 
-## A file should be included just for variables
+### A file should be included just for variables
+
 The values entered in CSS should come from pre-defined variables, not manually typed-in each time. This keeps things consistent and more visually pleasing.
 
 ``` SCSS
@@ -84,3 +90,14 @@ $color-grey:       #a7a9ac;
 $color-grey-light: #f6f6f6;
 $color-grey-dark:  #393939;
 ```
+
+## Contributing
+
+Submit a pull request!
+
+### Areas for improvement
+
+- Proofreading
+- Demonstrate styling with JavaScript
+- Include example Gulp configuration
+- Document Gulp workflow
